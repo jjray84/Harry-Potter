@@ -53,7 +53,7 @@ body {
     margin: 16px, 16px, 16px, 20px;
     padding: 14px 34px;
     text-align: center;
-    cursor: pointer;
+    cursor: pointer; 
 }
 
 .in-header {
@@ -75,6 +75,7 @@ h2 {
     font-size: var(--fontsize);
     display: flex;
     align-items: flex-end;
+    padding-right: .25%;
 }
 
 #para1 {
