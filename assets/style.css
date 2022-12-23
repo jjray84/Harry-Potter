@@ -1,0 +1,78 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --background: rgb(44, 24, 63);
+    --text: pink;
+    --fontsize: 30px;
+}
+
+body {
+    background-color: var(--background);
+}
+
+.header {
+    padding: 1%;
+    background-color: lightcoral;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1 {
+    color: var(--text);
+    background-color: var(--background);
+    display: inline-block;
+    font-size: 45px;
+}
+
+.header nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.btn {
+    border: none;
+    background-color: teal;
+    border-radius: hsl(360, 91%, 36%);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px 0px;
+    color: hsl(0, 0%, 100%);
+    display: inline-block;
+    font-size: 20px;
+    line-height: 22px;
+    margin: 16px, 16px, 16px, 20px;
+    padding: 14px 34px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.quote {
+    height: 250px;
+    width: 100%;
+    margin-bottom: .5%;
+    background-image: url(./images/castle.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row-reverse;
+    padding-bottom: 1%;
+}
+
+h2 {
+    background-color: teal;
+    color: var(--text);
+    font-size: var(--fontsize);
+    display: flex;
+    align-items: flex-end;
+}

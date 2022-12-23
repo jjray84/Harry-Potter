@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Harry Potter</title>
-    <link ref="style sheet" href="./assests/style.css"
+    <link rel="stylesheet" href="./assets/style.css">
 </head>
 <body>
 
@@ -15,16 +15,20 @@
         <nav>
             <ul>
                 <li>
-                    <a href="http://www.wizardingworld.com">Official Site</a>
+                    <button id="official" class="btn" 
+                    onclick="window.location.href = 'https://www.wizardingworld.com'; ">Official Site</button>
                 </li>
                 <li>
-                    <a href="https://en.wikipedia.org/wiki/Harry_Potter">Wikipedia</a>
+                    <button id="Wikipedia" class="btn"
+                    onclick="window.location.href = 'https://en.wikipedia.org/wiki/Harry_Potter';">Wikipedia</button>
                 </li>
                 <li>
-                    <a href="https://www.amazon.com/Harry-Potter-Paperback-Box-Books/dp/0545162076">Amazon</a>
+                    <button id="Amazon" class="btn"
+                    onclick="window.location.href = 'https://www.amazon.com/Harry-Potter-Paperback-Box-Books/dp/0545162076';">Amazon</button>
                 </li>
                 <li>
-                    <a href="https://www.harrypotter.fandom.com/wiki.Main_Page">Fandom</a>
+                    <button id="fandom" class="btn"
+                    onclick="window.location.href = 'https://harrypotter.fandom.com/wiki/Main_Page';">Fandom</button>
                 </li>
             </ul>
         </nav>
