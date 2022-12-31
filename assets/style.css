@@ -45,7 +45,6 @@ body {
     border: none;
     background-color: teal;
     border-radius: hsl(360, 91%, 36%);
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px 0px;
     color: hsl(0, 0%, 100%);
     display: inline-block;
     font-size: 20px;
@@ -53,7 +52,12 @@ body {
     margin: 16px, 16px, 16px, 20px;
     padding: 14px 34px;
     text-align: center;
-    cursor: pointer; 
+    cursor:grab; 
+}
+
+.btn:hover {
+    background-color: blue;
+    text-decoration: line-through;
 }
 
 .in-header {
@@ -71,7 +75,7 @@ body {
 
 h2 {
     background-color: teal;
-    color: var(--text);
+    color: white;
     font-size: var(--fontsize);
     display: flex;
     align-items: flex-end;
@@ -80,5 +84,6 @@ h2 {
 
 #para1 {
     color: white;
-    font-size: 30px;
+    font-size: 18px;
+    padding: 15px;
 }
